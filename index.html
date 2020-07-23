@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Font - Merriweather-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!--Link to stylesheet - style.css-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Quiz Site</title>
+</head>
+
+<body>
+    <!--Header Element contains SVG quiz logo-->
+    <header>
+        <svg width="208.6150390625px" height="122.021240234375px" xmlns="http://www.w3.org/2000/svg"
+            viewBox="145.69248046875 13.9893798828125 208.6150390625 122.021240234375" style="background:#596886"
+            preserveAspectRatio="xMidYMid">
+            <defs>
+                <filter id="editing-hover" x="-100%" y="-100%" width="300%" height="300%">
+                    <feFlood flood-color="#052b4a" result="flood"></feFlood>
+                    <feComposite operator="in" in2="SourceAlpha" in="flood" result="shadow"></feComposite>
+                    <feOffset dx="-4" dy="-4" in="SourceGraphic" result="offset-1"></feOffset>
+                    <feOffset dx="4" dy="4" in="shadow" result="offset-2"></feOffset>
+                    <feMerge>
+                        <feMergeNode in="offset-2"></feMergeNode>
+                        <feMergeNode in="offset-1"></feMergeNode>
+                    </feMerge>
+                </filter>
+            </defs>
+            <g filter="url(#editing-hover)">
+                <g transform="translate(180.14500212669373, 104.08218765258789)">
+                    <path
+                        d="M7.23 0.83L8.64-3.84L8.64-3.84Q10.88-2.62 14.21-2.62L14.21-2.62L14.21-2.62Q17.54-2.62 20.32-4.64L20.32-4.64L20.32-4.64Q23.10-6.66 25.09-10.37L25.09-10.37L25.09-10.37Q29.18-18.24 29.18-30.91L29.18-30.91L29.18-30.91Q29.18-38.98 25.54-38.98L25.54-38.98L25.54-38.98Q23.62-38.98 21.76-36.86L21.76-36.86L21.76-36.86Q19.90-34.75 18.43-31.36L18.43-31.36L18.43-31.36Q15.23-23.62 15.23-14.53L15.23-14.53L15.23-14.53Q15.23-12.67 16.13-11.55L16.13-11.55L16.13-11.55Q17.02-10.43 18.62-10.43L18.62-10.43L18.62-10.43Q18.37-8.45 16.64-7.04L16.64-7.04L16.64-7.04Q14.91-5.63 12.74-5.63L12.74-5.63L12.74-5.63Q7.55-5.63 4.90-8.86L4.90-8.86L4.90-8.86Q2.24-12.10 2.24-17.95L2.24-17.95L2.24-17.95Q2.24-23.81 4.03-28.42L4.03-28.42L4.03-28.42Q5.82-33.02 8.96-36.38L8.96-36.38L8.96-36.38Q12.10-39.74 16.42-41.66L16.42-41.66L16.42-41.66Q20.74-43.58 25.86-43.58L25.86-43.58L25.86-43.58Q43.01-43.58 43.01-26.88L43.01-26.88L43.01-26.88Q43.01-14.85 37.25-7.49L37.25-7.49L37.25-7.49Q31.49-0.06 21.50 0.83L21.50 0.83L21.50 0.83Q27.39 2.11 33.34 2.11L33.34 2.11L33.34 2.11Q38.02 2.11 41.47 0.13L41.47 0.13L41.47 0.13Q42.43-0.45 42.82-1.09L42.82-1.09L42.82-1.09Q44.74 0.64 44.74 4.06L44.74 4.06L44.74 4.06Q44.74 7.49 41.70 9.47L41.70 9.47L41.70 9.47Q38.66 11.46 32.74 11.46L32.74 11.46L32.74 11.46Q26.82 11.46 19.97 8.70L19.97 8.70L19.97 8.70Q13.12 5.95 7.23 0.83L7.23 0.83ZM66.62-2.69L66.62-2.69L66.62-2.69Q63.55 1.28 55.94 1.28L55.94 1.28L55.94 1.28Q51.97 1.28 49.09-1.12L49.09-1.12L49.09-1.12Q46.21-3.52 46.21-6.98L46.21-6.98L46.21-6.98Q46.21-8.90 46.40-9.86L46.40-9.86L50.69-32.64L63.68-33.92L59.01-9.22L59.01-9.22Q58.75-7.81 58.75-6.98L58.75-6.98L58.75-6.98Q58.75-3.26 60.99-3.26L60.99-3.26L60.99-3.26Q63.49-3.26 65.28-6.66L65.28-6.66L65.28-6.66Q65.86-7.74 66.11-9.15L66.11-9.15L70.66-32.64L83.26-33.92L78.53-8.96L78.53-8.96Q78.34-8 78.34-6.98L78.34-6.98L78.34-6.98Q78.34-5.95 78.91-4.83L78.91-4.83L78.91-4.83Q79.49-3.71 81.34-3.46L81.34-3.46L81.34-3.46Q80.96-1.92 79.62-0.90L79.62-0.90L79.62-0.90Q76.80 1.28 73.76 1.28L73.76 1.28L73.76 1.28Q70.72 1.28 68.93 0.19L68.93 0.19L68.93 0.19Q67.14-0.90 66.62-2.69ZM102.08-3.52L102.08-3.52L102.08-3.52Q100.10 1.28 93.76 1.28L93.76 1.28L93.76 1.28Q90.50 1.28 88.45-0.96L88.45-0.96L88.45-0.96Q86.72-2.94 86.72-4.93L86.72-4.93L86.72-4.93Q86.72-10.11 89.09-20.22L89.09-20.22L91.46-32.64L104.45-33.92L100.54-13.70L100.54-13.70Q99.46-8.96 99.46-7.30L99.46-7.30L99.46-7.30Q99.46-3.65 102.08-3.52ZM92.61-41.54L92.61-41.54L92.61-41.54Q92.61-44.03 94.69-45.38L94.69-45.38L94.69-45.38Q96.77-46.72 99.78-46.72L99.78-46.72L99.78-46.72Q102.78-46.72 104.61-45.38L104.61-45.38L104.61-45.38Q106.43-44.03 106.43-41.54L106.43-41.54L106.43-41.54Q106.43-39.04 104.42-37.76L104.42-37.76L104.42-37.76Q102.40-36.48 99.39-36.48L99.39-36.48L99.39-36.48Q96.38-36.48 94.50-37.76L94.50-37.76L94.50-37.76Q92.61-39.04 92.61-41.54ZM119.84 0.64L119.84 0.64L119.84 0.64Q116.80 0 115.23-0.29L115.23-0.29L115.23-0.29Q113.66-0.58 111.84-0.58L111.84-0.58L111.84-0.58Q110.02-0.58 108.22 0.06L108.22 0.06L108.22 0.06Q107.26-0.51 106.66-1.66L106.66-1.66L106.66-1.66Q106.05-2.82 106.05-4.61L106.05-4.61L106.05-4.61Q106.05-8.38 109.89-11.26L109.89-11.26L126.14-22.98L126.14-22.98Q121.60-24.26 117.47-24.26L117.47-24.26L117.47-24.26Q113.34-24.26 111.87-21.44L111.87-21.44L111.87-21.44Q109.70-24 109.70-28.03L109.70-28.03L109.70-28.03Q109.70-30.72 111.65-32.48L111.65-32.48L111.65-32.48Q113.60-34.24 117.70-34.24L117.70-34.24L117.70-34.24Q120-34.24 122.08-33.95L122.08-33.95L122.08-33.95Q124.16-33.66 126.02-33.41L126.02-33.41L129.47-32.90L129.47-32.90Q131.14-32.64 132.83-32.64L132.83-32.64L132.83-32.64Q134.53-32.64 135.81-33.34L135.81-33.34L135.81-33.34Q137.47-31.81 137.47-29.70L137.47-29.70L137.47-29.70Q137.47-26.37 133.38-22.91L133.38-22.91L117.18-10.82L117.18-10.82Q122.18-9.34 124.74-9.34L124.74-9.34L124.74-9.34Q130.11-9.34 132.42-11.90L132.42-11.90L132.42-11.90Q134.21-9.86 134.21-6.30L134.21-6.30L134.21-6.30Q134.21-2.75 131.90-0.74L131.90-0.74L131.90-0.74Q129.60 1.28 125.44 1.28L125.44 1.28L125.44 1.28Q122.88 1.28 119.84 0.64Z"
+                        fill="#ffd5af"></path>
+                </g>
+            </g>
+
+        </svg>
+
+    </header>
+
+
+
+    <h2>Score</h2>
+
+    <!--Container element for all content (apart from modal)-->
+    <div id="container">
+        <div id="top-section">
+            <!--Displays the score to the user-->
+            <p id="score-total"></p>
+            <!--Displays the question index number to the user - Question 1 e.g.-->
+            <h3 id="question-index"></h3>
+
+        </div>
+        <!--Timer element-->
+        <p id="timer"></p>
+        <!--Question title element-->
+        <p id="question-title"></p>
+        <div>
+            <!--Categories title-->
+            <p id="categories-title">Categories</p>
+            <!--This div contains all quiz category buttons-->
+            <div id="buttons-container">
+
+
+                <button id="historyCategory">History</button>
+                <button id="sportCategory">Sport</button>
+                <button id="generalKnowledgeCategory">General Knowledge</button>
+                <button id="musicCategory">Music</button>
+                <button id="tvCategory">Television</button>
+            </div>
+
+        </div>
+        <!--This div contains all answer option buttons-->
+        <div id="answer-options-container">
+            <button id="option1"></button>
+            <button id="option2"></button>
+            <button id="option3"></button>
+            <button id="option4"></button>
+        </div>
+
+    </div>
+
+    <!-- The Modal Element -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="result"></p>
+            <button id="reset-button">Play Again</button>
+        </div>
+
+    </div>
+
+    <!--Links to question data file and javsacript script.js file file-->
+    <script src="questionData.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
